@@ -64,11 +64,17 @@
     gap: 15px;
 }
 
-.sign-up-button {
+.sign-up-button-div button {
     font-size: 25px;
     height: 60px;
     width: 40%;
     border: solid 1px gray;
     border-radius: 50px;
 
+}
+
+.sign-up-button-div button:hover {
+    cursor: pointer;
+    background-color: #b388ff;
+    color: white;
 }
