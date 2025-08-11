@@ -31,6 +31,15 @@
     font-size: 18px;
 }
 
+.signup-description span {
+    color: blue;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
 .form-filds {
     display: flex;
     flex-direction: column;

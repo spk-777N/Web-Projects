@@ -1,13 +1,23 @@
 import React from 'react'
 import "./SignUp.css"
+import { useNavigate } from 'react-router-dom'
+
+
 
 function SignUp() {
+
+    // page functions
+
+    const navigate = useNavigate();
+
+
+    // page Body 
     return (
         <div className='sign-up-page'>
             <div className='form'>
                 <div className='signup-div-title'>
                     <p className='signup-title'>Sign up</p>
-                    <p className='signup-description'>Create and account or <span>Sign in</span></p>
+                    <p className='signup-description'>Create and account or <span onClick={() => navigate("/sign-in")}>Sign in</span ></p>
                 </div>
                 <div className='form-filds'>
                     <div className='signup-email'>
